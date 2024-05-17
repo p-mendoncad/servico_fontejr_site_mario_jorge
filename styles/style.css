@@ -6,12 +6,30 @@
 header{
     height: 150px;
     background-image: url(../images/banner.png);
+    display: flex;
+    flex-direction: row;
 }
+
+#logo{
+    height: 130px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #menubtn{
-    color: rgb(255, 105, 24);
+    color: rgb(3, 3, 3);
     background-color: rgba(0, 0, 0, 0);
+    font-size: 16px;
+    font-weight: 600;
+    height: fit-content;
+    margin-top: 127px;
 
 }
+#menubtn:hover{
+    color: #a95004;
+}
+
 .dropbtn{
     height: 24px;
     width: 96px;
