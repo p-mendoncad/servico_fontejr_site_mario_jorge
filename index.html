@@ -5,17 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MJ Marcenaria</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <header>
         <a href="index.html"><img id="logo" class= "banner" src="images/Logo Mario Jorge.png" alt="logo"></a>
-        <div class="dropdown">
-            <button alt="Menu" class="dropbtn" id="menubtn">Menu</button>
-            <div class="dropdown-content">
-                <button>Início</button>
-                <button>Móveis Comerciais</button>
-                <button>Móveis Residenciais</button>
-            </div>
-          </div>
+        <div >
+            <button type="
+            button" onclick="scroll_inicio()" id="btnInicio" class="headerbtns" alt="Início" >Início</button>
+            <button onclick="scroll_comercial()" id="btnMcomercial" class="headerbtns" alt = "Móveis Comerciais">Móveis Comerciais</button>
+            <button onclick="scroll_residencial()" id="btnMresidecial" class="headerbtns" alt = "Móveis Residenciais">Móveis Residenciais</button>
+            <button onclick="scroll_sobre()" id="btnSobre" class="headerbtns" alt = "Sobre">Sobre</button>
+        </div>
     </header>
+    <div id="headerGap"></div>
+    <h1 id="mComercial">Móveis Comerciais</h1>
+    <h1 id="mResidencial">Móveis Residenciais</h1>
+    <h1 id="sobre">Sobre</h1>
 </html>
