@@ -126,4 +126,25 @@ footer{
         font-size: 12px;
         text-align: justify;
     }
+    #imageRecepcao{
+        width: 450px;   
+        height: 300px; 
+        border-radius: 80px;
+        border: 3px solid #cc5c0e;
+    }
+    #imageInterior{
+        width: 450px;   
+        height: 450px; 
+        border-radius: 80px;
+        border: 3px solid #cc5c0e;
+    }
+    .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+        margin: 30px;
+    }
+    
+    
     
