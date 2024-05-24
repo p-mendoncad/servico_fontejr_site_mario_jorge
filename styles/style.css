@@ -5,7 +5,8 @@
 }
 html{
     height: 100%;
-    min-height: 100%;
+    min-height: 100vh;
+    min-width: 10vw;
 }
 
 header{
@@ -42,20 +43,57 @@ header{
 }
 
 #headerGap{
-    height:150px;
+    height: 150px;
 }
 
 body{
     background-color: #fff5e6;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+h1{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-shadow: 0.5px 0.5px #a95004;
+    padding-left: 5px;
+    margin-top: 10px;
+    color: #cc5c0e;
+    width:fit-content;
+}
+
+h2{
+    margin-top: 5px;
+    width: fit-content;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-shadow: 0.5px 0.5px #cc5c0e;
+    padding-left: 10px;
+    color: #a95004;
+}
+
+p{
+    height: fit-content;
+    width: auto;
+    text-indent: 1.5em;
+    text-justify: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+   
 }
 
 footer{
     background-color: #cc5c0e;
     height: 250px;
     margin-top: auto;
+    width: 100%;
 }
 
 .icones {
@@ -125,26 +163,28 @@ footer{
     .sobre {
         font-size: 12px;
         text-align: justify;
+        margin: 0;
+        width: fit-content;
     }
-    #imageRecepcao{
-        width: 450px;   
-        height: 300px; 
-        border-radius: 80px;
-        border: 3px solid #cc5c0e;
-    }
-    #imageInterior{
-        width: 450px;   
-        height: 450px; 
-        border-radius: 80px;
-        border: 3px solid #cc5c0e;
-    }
-    .image-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 150px;
-        margin: 30px;
-    }
+
+#imageRecepcao{
+    width: 450px;   
+    height: 300px; 
+    border-radius: 15px;
+    border: 3px solid #cc5c0e;
+}
+#imageInterior{
+    width: 450px;
+    border-radius: 15px;
+    border: 3px solid #cc5c0e;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin: 30px;
+}
     
     
     
