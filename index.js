@@ -1,11 +1,20 @@
 function scroll_comercial(){
-    window.scrollTo(0,0);
+    var comercial = document.getElementById("mComercial")
+    var coordenadas =  comercial.getBoundingClientRect()
+    var ycomercial = coordenadas.y -100
+    window.scrollTo(0,ycomercial);
  }
 
 function scroll_residencial(){
-     //window.scrollTo(0,y);
+    var residencial = document.getElementById("mResidencial")
+    var coordenadas =  residencial.getBoundingClientRect()
+    var yresidencial = coordenadas.y -150
+    window.scrollTo(0,yresidencial);
  }
 
  function scroll_sobre(){
-     //window.scrollTo(0,y);
+    var footer = document.getElementById("footer")
+    var coordenadas =  footer.getBoundingClientRect()
+    var yfooter = coordenadas.y +1000
+    window.scrollTo(0,yfooter);
  }

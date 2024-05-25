@@ -17,6 +17,7 @@ header{
     flex-direction: row;
     position: fixed;
     margin-bottom: 15px;
+    
 }
 
 #logo{
@@ -29,6 +30,7 @@ header{
 .headerbtns{
     color: #fff5e6;
     background-color: rgba(0, 0, 0, 0);
+    font-family: Montserrat SemiBold;
     border-style: none;
     font-size: 20px;
     font-weight: 600;
@@ -56,8 +58,8 @@ body{
 
 h1{
     font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: Montserrat SemiBold;
+    font-weight: bolder;
     text-shadow: 0.5px 0.5px #a95004;
     padding-left: 5px;
     margin-top: 10px;
@@ -66,11 +68,10 @@ h1{
 }
 
 h2{
-    margin-top: 5px;
+    margin-top: 10px;
     width: fit-content;
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
+    font-family: Montserrat SemiBold;
     text-shadow: 0.5px 0.5px #cc5c0e;
     padding-left: 10px;
     color: #a95004;
@@ -78,22 +79,24 @@ h2{
 
 p{
     height: fit-content;
-    width: auto;
-    text-indent: 1.5em;
-    text-justify: justify;
+    width: 40vw;
+    margin-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Montserrat Regular;
+    font-weight: 500;
     margin-bottom: 5px;
    
 }
 
 footer{
     background-color: #cc5c0e;
-    height: 250px;
+    background-repeat: repeat-y;
+    height: 270px;
     margin-top: auto;
     width: 100%;
+    position:initial;
 }
 
 .icones {
@@ -151,18 +154,15 @@ footer{
         text-align: center !important;
     }    
     .negritoFotter {
-        font-weight: bold;
         font-size: 25px;
-        font-family:Times New Roman, sans-serif; 
+        font-family: Montserrat SemiBold; 
     }
     .negritoFotter1 {
-        font-weight: bold;
         font-size: 16px;
-        font-family:Times New Roman, sans-serif; 
+        font-family:Montserrat SemiBold; 
     }
     .sobre {
-        font-size: 12px;
-        text-align: justify;
+        font-size: 14px;
         margin: 0;
         width: fit-content;
     }
@@ -188,22 +188,33 @@ footer{
     
 #imageQuartos{
     width: 450px;
+    height: 300px;
     border-radius: 15px;
     border: 3px solid #cc5c0e;
 }    
 
 #imageCozinhas{
     width: 450px;
+    height: 300px;
     border-radius: 15px;
     border: 3px solid #cc5c0e;
 }
 
 #imageBanheiro{
     width: 450px;
+    height: 300px;
     border-radius: 15px;
     border: 3px solid #cc5c0e;
 }
-
+ #p-salas{
+    margin-bottom: 20px;
+ }
     
-    
+#whatsapp{
+    height: 60px; 
+    display: flex;
+    justify-content: space-between;
+    margin-left:calc(100vw - 250px);
+    margin-top: 5vh;
+}
     
