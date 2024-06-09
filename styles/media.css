@@ -63,7 +63,7 @@
     }
 
    #whatsapp{
-        height: 45px; 
+        height: 45px;
         width: 45px;
         padding-left: 10px;
     }
@@ -71,10 +71,10 @@
         width: 55px;
         height: 45px;
         display: flex;
-        position: fixed;
-        margin-top: calc(99%);
-        margin-left: calc(100% - 55px);
         
+        position: fixed;
+        margin-top: calc(70vh);
+        margin-left: calc(100% - 55px);
     }
 
     h1 {
@@ -188,6 +188,8 @@
 
     #logoFooter{
         width: 85px;
+        padding: 10px;
+        padding-bottom: 0px;
     }
 
     .footer-section h3 {
@@ -196,6 +198,7 @@
     }
 
     .footer-section p {
+        padding: 10px;
         margin-bottom: 10px; /* Add bottom margin for paragraphs */
         width:100%;
         text-align: justify;
