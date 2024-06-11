@@ -14,8 +14,8 @@ function scroll_residencial(){
  }
 
  function scroll_sobre(){
-    var footer = document.getElementById("sobre")
+    var footer = document.getElementById("h1Sobre")
     var coordenadas =  footer.getBoundingClientRect()
-    var yfooter = coordenadas.y +10000
+    var yfooter = coordenadas.y -150
     window.scrollTo(0,yfooter);
  }
