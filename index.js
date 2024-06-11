@@ -14,9 +14,8 @@ function scroll_residencial(){
  }
 
  function scroll_sobre(){
-    var footer = document.getElementById("h1Sobre")
-    var coordenadas =  footer.getBoundingClientRect()
-    var yfooter = coordenadas.y -150
-    window.scrollTo(0,yfooter);
-    window.alert(yfooter)
+    var sobre = document.getElementById("h1Sobre")
+    var coordenadas =  sobre.getBoundingClientRect()
+    var ysobre = coordenadas.y -150
+    window.scrollTo(0,ysobre);
  }
