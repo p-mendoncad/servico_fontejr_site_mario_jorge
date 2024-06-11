@@ -64,6 +64,7 @@
     }
 
     h1 {
+        height: fit-content;
         font-size: 28px;
         font-family: Montserrat SemiBold;
         font-weight: bolder;
@@ -74,6 +75,7 @@
     }
 
     h2 {
+        height: fit-content;
         margin-top: 10px;
         font-size: 24px;
         font-family: Montserrat SemiBold;
