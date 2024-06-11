@@ -16,6 +16,6 @@ function scroll_residencial(){
  function scroll_sobre(){
     var footer = document.getElementById("h1Sobre")
     var coordenadas =  footer.getBoundingClientRect()
-    var yfooter = coordenadas.y -150
+    var yfooter = coordenadas.y -1000
     window.scrollTo(0,yfooter);
  }
