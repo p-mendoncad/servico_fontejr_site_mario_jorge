@@ -66,11 +66,12 @@
         height: 45px;
         width: 45px;
         padding-left: 10px;
+        display: inline-block;
     }
     #wppBtn{
         width: 55px;
         height: 45px;
-        display: flex;
+        display: inline-block;
         
         position: fixed;
         margin-top: calc(70vh);

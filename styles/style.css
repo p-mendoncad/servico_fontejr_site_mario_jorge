@@ -262,7 +262,7 @@
 
     #whatsapp {
         height: 60px;
-        display: flex;
+        display: inline-block;
         justify-content: space-between;
         margin-left: calc(100vw - 125px);
         margin-top: 85vh;
@@ -270,7 +270,7 @@
     #wppBtn{
         width: 60px;
         height: 60px;
-        display: flex;
+        display: inline-block;
         position: fixed;
     }
 }
