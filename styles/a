@@ -140,10 +140,14 @@
         background-color: #cc5c0e;
         display: flex;
         flex-wrap: wrap;
-        padding-left: 10%;
+        padding-left: 5%;
         padding-right: 5%;
         justify-content: space-around;
         align-items: flex-start; /* Ensure items align at the top */
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
     }
     #logoFooter{
         width: 85px;
